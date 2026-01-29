@@ -16,21 +16,6 @@ FastAPI	REST API framework
 Pydantic	Request/response validation
 SQLite	Lightweight database
 LangChain	Tool abstraction layer (agent-style design)
-📁 Project Structure
-Brain/
-│
-├── main.py               # FastAPI app
-├── models.py             # Pydantic models
-├── database.py           # DB connection & table init
-├── tool_registry.py      # LangChain tool definitions
-│
-├── tools/
-│   ├── calculator.py
-│   └── memory.py
-│
-├── router.py             # Agent brain (core logic)
-│
-└── memory.db             # SQLite database (auto-created)
 
 🧠 The Agent Brain (Router)
 
